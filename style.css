@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Cute Font', cursive; */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#exercise {
+    font-size: 50px;
+    margin: 50px auto;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+
+/* SUNSHINE / RAIN COUNTER */
+.card {
+    width: 400px;
+    height: 300px;
+    padding: 6px;
+    border: 1px solid #e1e2e3;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    background: #1e2e3e;
+}
+
+
+h1 {
+    width: 100%;
+    background: linear-gradient(120deg, rgb(240, 240, 182), rgb(168, 168, 238));
+    text-align: center;
+    font-family: 'Cute Font', cursive;
+    color: #a6f1c8;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 240px;
+}
+
+.box {
+    width: 120px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.fa-cloud-rain,
+.fa-sun {
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+}
+
+.fa-sun {
+    color: rgb(238, 238, 137);
+    text-shadow: 1px 1px #fafafa;
+}
+.fa-cloud-rain {
+    color: rgb(55, 55, 88);
+    text-shadow: 1px 1px #fafafa;
+}
+
+.fa-minus,
+.fa-plus {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background: #2f4153;
+    border-radius: 50%;
+}
+
+.fa-plus {
+    color: rgb(164, 223, 164);
+}
+
+.red {
+    color: rgb(231, 135, 135);
+}
+
+.sunCounter,
+.rainCounter {
+    font-size: 30px;
+    color: #fafafa;
+    margin: 0;
+}
+
+
+/* LIKES PART */
+.card-like {
+    margin: 50px auto;
+    font-size: 30px;
+    display: flex;
+}
+
+.thumbsUp,
+.thumbsDown,
+.likes,
+.dislikes {
+    padding: 6px;
+}
+
+.fa-thumbs-up {
+    color: green;
+}
+.likes,
+.dislikes {
+    color: #fafafa;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    background: #4e4e4e;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.fa-thumbs-down {
+    color: red;
+}
+
+
+
+/* COUNTER + - */
+
+.counter {
+    margin-top: 50px;
+    font-family: 'VT323', monospace;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    text-transform: uppercase;
+    align-items: center;
+    width: 150px;
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px gray);
+}
+.plusminus {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#sub, #plus {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1e2e3e;
+    color: white;
+    text-align: center;
+}
+#plus,
+#sub {
+    line-height: 30px;
+}
+
+#counter {
+    font-size: 30px;
+}
+
